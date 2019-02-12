@@ -378,6 +378,7 @@ footer a:hover { color: #B509AC; }
 .post-content h2 { font-size: 42px; }
 .post-content h3 { font-size: 30px; }
 .post-content h4 { font-size: 20px; }
+.post-content td { border: solid 1px black; }
 
 .post-meta { color: #828282; font-size: 0.875rem; margin-bottom: 0px; }
 
