@@ -5,21 +5,14 @@ description: Neuronal Stimulation for Recovery of Function
 img: /assets/img/project1/12.jpg
 ---
 
-One of my first relevant projects that included alot of programming is the one I did in Richard van Wezel's lab. 
+One of my first relevant projects that included alot of programming is the one I did in Prof. Dr. Richard van Wezel's lab. 
 
-For my master, I had to do two internships, the first one I went to the biophysics department and asked if I could do a project there. Thankfully, Richard allowed me to be part of his group and introduced me to the Neuronal Stimulation for Recovery of Function (NESTOR) project where I became a part of.
+For my master, I had to do two internships in total. For my first one I choose the biophysics department and asked  the professor whether I could do a project there. Thankfully, Richard allowed me to be part of his group and introduced me to the team of the Neuronal Stimulation for Recovery of Function (NESTOR) project where I became a part of.
 
-My second supervisor was Yagmur, she was an Artificial Intelligence graduate and a postdoc in the biophysics department at the moment (Currently Assistant professor in the A.I. department). 
+My daily supervisor for this project became Dr. Yağmur Güçlütürk, she was an Artificial Intelligence expert and a postdoc in the biophysics department at the moment (Currently Assistant professor in the A.I. department). She was respsonsible for the video processing of the project and I had the task of working with human psychophysics experiment to test her algorithms.
 
-<div class="img_row">
-    <img class="col three" src="{{ site.baseurl }}/assets/img/project1/computer.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    Programming.
-</div>
+For the first time, I had a quite technical project. My days consisted of googling things, reading things, installing things, but mainly GOOGLING things. 
 
-
-For the first time, I decided to go with a very technical internship. My days consisted of googling things, reading things, installing things, but mainly GOOGLING things. 
 
 <div class="img_row">
     <img class="col one left" src="{{ site.baseurl }}/assets/img/project1/books.jpg" alt="" title="example image"/>
@@ -29,8 +22,26 @@ For the first time, I decided to go with a very technical internship. My days co
 
 <div class="col three caption">
 The first few weeks consisted of reading about the brain, learning about the brain, and brainstorming
-with my brain. I had to think of a project.
+with my brain. I had to think of a project.</div>
 
-As I learned more and more about the science of human vision, I gained more interest in the project. I was allowed to attend the meetings where the different researchers discussed and updated eachother about the project.
+
+
+As I learned more and more about the science of human vision, I gained more interest in the project. I was allowed to attend the meetings where the different researchers discussed and updated eachother about the project. Eventually I did research on biological motion in phosphene vision, where I wrote my first psychophysics experiment, the report is found [here]({{ site.url }}/assets/mydoc.pdf){:target="\_blank"}, and the source code is found [here](https://github.com/lelynn/BiologicalMotionExperiment){:target="\_blank"}. 
+
+
+***
+
+### What I learned
+<div class="img_row">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/project1/computer.jpg" alt="" title="example image"/>
+</div>
+<div class="col three caption">
+    Programming.
 </div>
 
+I learned alot. First of all, I learned programming. So I started off with Matlab and then moved onto Python to construct the experiment. I have to say it was quite tough but it also helped alot to do online courses such as [Reeborg's world](http://reeborg.ca/index_en.html){:target="\_blank"}, [Codeacademy](https://www.codecademy.com/){:target="\_blank"}, or [Hackerrank](https://www.hackerrank.com/){:target="\_blank"}. These really helped me understood the basics of the computer language. I became more and more excited about learning Python.
+
+
+ I eventually also followed a course called Neural Networks, which was taught by Prof. Dr. Marcel van Gerven. It became my favorite course :) (except for the fact that we had to work in groups). This course introduced me to a part of artificial intelligence in which I would eventually do my [final master internship]({{ site.url }}/projects/3_project) in, in Marcel's lab. 
+
+Next to programming, I had the chance to present my poster at a few events (Dutch Neuroscience Meeting, Perceptionday, Donder's Sessions). So I learned to make a professional poster and present it. 

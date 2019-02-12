@@ -9,7 +9,7 @@ This is a planning for myself for the upcoming months
 
 ***
 
-As I am currently finishing up my master, I wanted to make a planning for myself. This is quite a stressful time, I have THREE thesises left to do before the end of june (preferabbly as soon as possible). 
+As I am currently finishing up my master, I wanted to make a planning for myself. I am also a bit disctracted since I abought the new nintendo switch (along with Zelda BotW)... But seriously, this is quite a stressful time for me, I have THREE thesises left to do before the end of june (preferabbly as soon as possible). 
 
 #### To-do list
 <ul>

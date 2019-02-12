@@ -2,7 +2,7 @@
 layout: post
 title:  my planning
 date:   2019-02-11
-description: Planing for February, March, April, May & June; looking forward to the PhD
+description: Planing for February, March, April, May & June; looking forward to the PhD!
 ---
 
 | date | wk | task | status|
@@ -30,7 +30,7 @@ description: Planing for February, March, April, May & June; looking forward to 
 | 05.29/06.03 | w16  | Work on v2 of everything                                    |   |
 | 06.03/06.10 | w17  | Work on v2 of everything                                    |   |
 | 06.10/06.17 | w18  | Hand in everything                                          |   |
-| 06.17/07.01 | w19| Vacation (hopefully)                                          |   |
-| 06.01/07.11 | w20| Vacation (hopefully)                                          |   |
+| 06.17/07.24 | w19| Vacation (hopefully)                                          |   |
+| 07.24/07.01 | w20| Vacation (hopefully)                                          |   |
 
 
