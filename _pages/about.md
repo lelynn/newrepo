@@ -2,18 +2,17 @@
 layout: about
 permalink: /
 title: <strong>Lynn</strong> Le
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="">Donder's Institute</a>. Nijmegen, Netherlands.
 
 profile:
   align: right
   image: profile_pic.jpg
-  address: >
-    <p>Radboud University</p>
-    <p>Nijmegen, Netherlands</p>
+  address:
 news: true
 social: true
 ---
 
-Currently finishing up my master thesis. I like animals specifically [puppies](https://www.reddit.com/r/aww/comments/ans2i1/this_little_lad_just_came_home/){:target="\_blank"}.
+Currently finishing up my master thesis in the artificial intelligence department at the Donder's Institute. When I finish my thesis, I will start my PhD.  My current (short-term) goal is to successfully finish up my thesis and then afterwards I will put all my effort into making my PhD project as successful as possible. I am looking forward to learn many things from it!
 
-I desire to have some kind of positive impact on earth. One day I will have more things to say. For now, I focus on staying positive and being kind!
+Next to research, I like to do some sporty stuff (climbing, windsurfing, swimming, etc.) and also I like animals more than anything! Specifically cute puppies such as [this one](https://www.reddit.com/r/aww/comments/ans2i1/this_little_lad_just_came_home/){:target="\_blank"}. Thanks for visiting my page. 
+
