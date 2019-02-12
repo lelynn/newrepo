@@ -19,13 +19,12 @@ figcaption {
 .col {
     width: 100%;
     height: 100%;
-    float: left;
     object-fit: cover;
     box-sizing:border-box;
     padding: $img-spacing;
 }
 .one {
-    width:33.33%;
+    width:33%;
 }
 .two {
     width: 66.66%;

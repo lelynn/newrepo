@@ -8,15 +8,16 @@
 
     .thumbnail {
         overflow: hidden;
-        height: 200px;
+        height: 100%;
         width: 100%;
 
         img {
-            height: auto;
+            height: 100%;
             position: relative;
-                left: -25%;
-                top: -5%;
-            width: 500px;
+                left: 0%;
+                top: 0%;
+            width: 100%;
+
         }
 
         a {
