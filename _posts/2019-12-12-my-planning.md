@@ -5,6 +5,12 @@ date:   2019-02-11
 description: Planing for February, March, April, May & June; looking forward to the PhD!
 ---
 
+<div class="alert alert-danger">
+    My current stress level:
+
+    0%|######################    | 100%
+</div>
+
 | date | wk | task | status|
 |:-----------:|:----:|-----------------------------------------|:-----------:|
 |<b>February</b>||||
@@ -14,8 +20,8 @@ description: Planing for February, March, April, May & June; looking forward to 
 |<b>March</b>|||
 | 03.04/03.11 | w4   |Collect data from subjects (5p?) + Data Analysis             |   |
 | 03.11/03.18 | w5   |Collect Data Analysis                                                |   |
-| 03.18/03.25 | w6   |Write Internship Report                                      |   |
-| 03.25/04.01 | w7   |Write Internship Report                                      |   |
+| 03.18/03.25 | w6   |Write Internship Report                                      |&#10003;|
+| 03.25/04.01 | w7   |Write Internship Report                                      |&#10003;|
 |<b>April</b>||||
 | 04.01/04.08 | w8   |Write Internship Report                                      |   |
 | 04.08/04.15 | w9   |Write Internship Report                                      |   |

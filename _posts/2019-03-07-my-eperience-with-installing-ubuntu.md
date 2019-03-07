@@ -18,7 +18,7 @@ After following a tutorial online on how to partition my harddrive and install u
 </div>
 
 So my ultimate goal was to use cupy, which is supported by cuda 10.0 (or older), and cuda 10.0 or older is supported by Ubunutu 18.04.1 (or older). I didn't know this so I first installed the newest Ubuntu 18.04.2 and then after a while found out I couldn't install cuda 10.0 properly. This is because on the [cuda 10.0 installation guide](https://docs.nvidia.com/cuda/archive/10.0/){:target="\_blank"}, it says I needed the kernel version 14.15.0 (and I had 124.18.0). I tried different things to fix this problem (such as changing the kernel version to an older version) before I finally resolved to reinstalling an older Ubuntu.  
-<div class="alert alert-info">
+<div class="alert alert-warning" role='alert'>
   Pretty much, I installed the wrong version of Ubuntu!
 </div>
 
@@ -27,7 +27,7 @@ So my ultimate goal was to use cupy, which is supported by cuda 10.0 (or older),
 ### Second time installing
 
 The second time I installed Ubuntu, I specifically chose the 18.04.2 version and finally was able to install cuda 10.0. However, I thought to myself, I wonder how it would look like if I changed my screen resolution... Since I had an extra screen connected, I decided to play around with the different resolution possibilities. 
-<div class="alert alert-info">
+<div class="alert alert-danger">
  Turns out changing the screen resolution made my whole screen black... and then green!
 </div>
 
@@ -44,6 +44,10 @@ I WAS SO ANNOYED AT THIS POINT. I started questioning whether I even still wante
 
 ### UNTIL... 
 
+<div class="alert alert-danger">
+ OUT OF MEMORRY!
+</div>
+
 <div class="img_row">
     <img class="col one left" src="{{ site.baseurl }}/assets/img/blog_img/out_of_memory.png" alt="" title="out of memory!!!/>
 </div>
@@ -55,3 +59,9 @@ Until I realized my model architecture is way too heavy for my tiny GPU... OUT O
 </div>
 
 Well.... I guess I cannot do much about this. It is nice to know how to use my GPU I guess.. And perhaps one day I should buy an external GPU.. but they're not cheap. 
+
+### Lessons learned
+
+- Think twice or three times before installing the latest version of everything.
+- Dont just change your screen resolution on ubuntu. 
+- Everything you do you can learn from. 
