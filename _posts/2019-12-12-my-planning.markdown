@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  my planning
+title:  My planning
 date:   2019-02-11
 description: Planing for February, March, April, May & June; looking forward to the PhD!
 ---
@@ -12,8 +12,8 @@ description: Planing for February, March, April, May & June; looking forward to 
 | 02.18/02.25 | w2   |Set up experiment with the lab                               |   |
 | 02.25/03.04 | w3   |Collect data from subjects (4p?)                             |   |
 |<b>March</b>|||
-| 03.04/03.11 | w4   |Collect data from subjects (2p?) + Data Analysis             |   |
-| 03.11/03.18 | w5   |Data Analysis                                                |   |
+| 03.04/03.11 | w4   |Collect data from subjects (5p?) + Data Analysis             |   |
+| 03.11/03.18 | w5   |Collect Data Analysis                                                |   |
 | 03.18/03.25 | w6   |Write Internship Report                                      |   |
 | 03.25/04.01 | w7   |Write Internship Report                                      |   |
 |<b>April</b>||||
