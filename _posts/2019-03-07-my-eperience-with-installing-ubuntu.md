@@ -65,3 +65,6 @@ Well.... I guess I cannot do much about this. It is nice to know how to use my G
 - Think twice or three times before installing the latest version of everything.
 - Dont just change your screen resolution on ubuntu. 
 - Everything you do you can learn from. 
+
+
+Now that I have let out my frustrations on this blog, I would like to thank whomever is reading this for listening (probably nobody). This was therapeutical. 
