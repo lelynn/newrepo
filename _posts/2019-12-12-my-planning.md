@@ -5,11 +5,8 @@ date:   2019-02-11
 description: Planing for February, March, April, May & June; looking forward to the PhD!
 ---
 
-<div class="alert alert-danger">
-    My current stress level:
-
-    0%|######################    | 100%
-</div>
+>    My current stress level: \
+0%|###################### . . . | 100%
 
 | date | wk | task | status|
 |:-----------:|:----:|-----------------------------------------|:-----------:|
