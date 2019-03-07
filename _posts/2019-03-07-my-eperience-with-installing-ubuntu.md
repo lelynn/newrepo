@@ -49,7 +49,7 @@ I WAS SO ANNOYED AT THIS POINT. I started questioning whether I even still wante
 </div>
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/blog_img/out_of_memory.png" alt="" title="out of memory!!!/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/blog_img/out_of_memory.png" alt="" title="outofmemory!!" />
 </div>
 
 Until I realized my model architecture is way too heavy for my tiny GPU... OUT OF MEMORY!!  
