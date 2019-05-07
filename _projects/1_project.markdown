@@ -5,11 +5,9 @@ description: Neuronal Stimulation for Recovery of Function
 img: /assets/img/project1/12.jpg
 ---
 
-One of my first relevant projects that included alot of programming is the one I did in Prof. Dr. Richard van Wezel's lab. 
+One of my first relevant projects that included alot of programming was part of the Neuronal Stimulation for Recovery of Function (NESTOR) project.
 
-For my master, I had to do two internships in total. For my first one I choose the biophysics department and asked  the professor whether I could do a project there. Thankfully, Richard allowed me to be part of his group and introduced me to the team of the Neuronal Stimulation for Recovery of Function (NESTOR) project where I became a part of.
-
-My daily supervisor for this project became Dr. Yağmur Güçlütürk, she was an Artificial Intelligence expert and a postdoc in the biophysics department at the moment (Currently Assistant professor in the A.I. department). She was respsonsible for the video processing of the project and I had the task of working with human psychophysics experiment to test her algorithms.
+My daily supervisor for this project became Dr. Yağmur Güçlütürk, she was an Artificial Intelligence expert and a postdoc in the biophysics department (Currently Assistant professor in the A.I. department). She was respsonsible for the video processing of the project and I had the task of working with human psychophysics experiment to test her algorithms.
 
 For the first time, I had a quite technical project. My days consisted of googling things, reading things, installing things, but mainly GOOGLING things. 
 
