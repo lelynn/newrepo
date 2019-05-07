@@ -6,7 +6,23 @@ img: /assets/img/project3/aibrain.jpg
 
 redirect: 
 ---
-During the first intership, I was taking artificial intelligence classes. I was quite good at it and found it a lot of fun. Yagmur introduced me to the AI department and Umut, and there I started my second internship. This internship became way more technical than the first one. I am currently still working on this project. It is quite challenging for me since I have never done anything like this before. But I liked to be challenged. 
+After taking some AI classes, I decided it is something I really enjoy. My supervisor introduced me to the AI department, where I then started an intership project. This internship became way more technical than the first one, where I had to become familiar with many new concepts such as adversarial images, different loss functions and regularizers, k-clustering, Chainer and Pytorch, working via ssh cluster, etc. I am currently still working on this project, and is quite challenging for me since I have never done anything like this before. But I liked to be challenged. 
+
+
+So far I have become familiar with making my own convolutional models that take in an input image and that outputs specific things. Convolutional neural networks are a form of artificial neural network, composed of artificial neurons. Artificial neurons are are an abstraction of neural behavior, which performs by first summing the input signals over all incoming synapses, formally written as:
+
+`$$ I_i = \sum_j{w_{ij} v_j} $$`
+
+where `$j$` is the pre-synaptic neuron and `$i$` is the post-synaptic neuron, `$v_j$` is the signal from `$j$` to `$i$` and `$w_{ij}$` is e strength of the synapse. 
+
+Then the integral signal is transformed according to a non-linear function, formally as: `$$v_i = f(I_1)$$`
+Where `$f(I_i)$` is often a sigmoid or linear rectifier function. 
+
+The goal of my model, is thus to learn by adjusting the weights in the nodes to produce the desired outputs to their input data. The desired outputs are defined by the targets that are provided to the model along with the input.
+
+Adversarial images are images generated with the intention to get the model to predict something different than what the actual target is. 
+
+
 
 <div class="img_row">
     <img class="col three" src="{{ site.baseurl }}/assets/img/project3/NN.png" alt="" title="example image"/>
@@ -15,9 +31,7 @@ During the first intership, I was taking artificial intelligence classes. I was 
 Convolutional neural network architecture.
 </div>
 
-
- This project has allowed me to add way more things to my github account and also learn about the field of using deep learning to study the brain. I became very intrigued about this field and I want to stay in this area of research.
-
+So above is an convolutional network, that takes in an image and transforms it into an output with specific dimensions. My goals of this project are basically to: 1) train a bunch of models that take in specific inputs and then outputs predictions with specific dimensions. 2) combine all these models to make a huge supermodel (so that it is a strong model). 3) make adversarial images based on this supermodel (by iterating through the input with self-made adversarial targets).
 
 <div class="img_row">
     <img class="col one" src="{{ site.baseurl }}/assets/img/project3/githubcat.png" alt="" title="example image"/>
