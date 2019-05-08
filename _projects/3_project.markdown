@@ -13,7 +13,7 @@ So far I have become familiar with making my own convolutional models that take 
 
 ![synapse](https://latex.codecogs.com/gif.latex?I_i%20%3D%20%5Csum_j%7Bw_%7Bij%7D%20v_j%7D)
 
-where _j_ is the pre-synaptic neuron and _i_ is the post-synaptic neuron, _v<sub>j</sub>_ is the signal from _j_ to _i_ and _w_{ij}$` is e strength of the synapse. 
+where _j_ is the pre-synaptic neuron and _i_ is the post-synaptic neuron, _v<sub>j</sub>_ is the signal from _j_ to _i_ and _w<sub>ij</sub>_ is the strength of the synapse. 
 
 Then the integral signal is transformed according to a non-linear function, formally as: 
 
@@ -23,7 +23,7 @@ Where _f(I<sub>i</sub>)_ is often a sigmoid or linear rectifier function.
 
 The goal of my model, is thus to learn by adjusting the weights in the nodes to produce the desired outputs to their input data. The desired outputs are defined by the targets that are provided to the model along with the input.
 
-Adversarial images are images generated with the intention to get the model to predict something different than what the actual target is. 
+Adversarial images are images generated with the intention to get the model to predict something different than what the actual target is. I will explain my method in a blogpost later.
 
 
 
