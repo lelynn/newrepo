@@ -19,7 +19,7 @@ Then the integral signal is transformed according to a non-linear function, form
 
 ![non-linear](https://latex.codecogs.com/gif.latex?v_i%20%3D%20f%28I_i%29)
 
-Where _f(I_<sub>i</sub>)_ is often a sigmoid or linear rectifier function. 
+Where _f(I<sub>i</sub>)_ is often a sigmoid or linear rectifier function. 
 
 The goal of my model, is thus to learn by adjusting the weights in the nodes to produce the desired outputs to their input data. The desired outputs are defined by the targets that are provided to the model along with the input.
 
