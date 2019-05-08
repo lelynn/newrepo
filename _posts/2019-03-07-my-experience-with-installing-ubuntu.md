@@ -55,4 +55,4 @@ Well.... I guess I cannot do much about this. It is nice to know how to use my G
 - Everything you do you can learn from. 
 
 
-Now that I have let out my frustrations on this blog, I would like to thank whomever is reading this for listening (probably nobody). This was therapeutical. 
+Now that I have let out my frustrations on this blog, I would like to thank whomever is reading this for listening (probably nobody). This was very therapeutical to write. 

@@ -11,7 +11,7 @@ The pretrained models that I used ([models provided by PyTorch](https://pytorch.
 # Ensembling the models
 
 In order to make a supermodel in PyTorch, we first have to make instances of every model classes. Since we have 7 quite large models, I made a separate file containing all the model classes, and named in `all7models.py`. First I need to import all necessary things:
-![imports](/assets/img/blog_img/blog4/imports1.png "imports")
+![imports](/assets/img/blog_img/blog4/imports1.png){:width="50%"}
 
 
 Then all the different classes of models that were trained. Here is ana exmaple of the AlexNet model (1 out of 7):
