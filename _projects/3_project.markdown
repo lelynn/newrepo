@@ -11,12 +11,15 @@ After taking some AI classes, I decided it is something I really enjoy. My super
 
 So far I have become familiar with making my own convolutional models that take in an input image and that outputs specific things. Convolutional neural networks are a form of artificial neural network, composed of artificial neurons. Artificial neurons are are an abstraction of neural behavior, which performs by first summing the input signals over all incoming synapses, formally written as:
 
-`$$ I_i = \sum_j{w_{ij} v_j} $$`
+![synapse](https://latex.codecogs.com/gif.latex?I_i%20%3D%20%5Csum_j%7Bw_%7Bij%7D%20v_j%7D)
 
-where `$j$` is the pre-synaptic neuron and `$i$` is the post-synaptic neuron, `$v_j$` is the signal from `$j$` to `$i$` and `$w_{ij}$` is e strength of the synapse. 
+where _j_ is the pre-synaptic neuron and _i_ is the post-synaptic neuron, _v<sub>j</sub>_ is the signal from _j_ to _i_ and _w_{ij}$` is e strength of the synapse. 
 
-Then the integral signal is transformed according to a non-linear function, formally as: `$$v_i = f(I_1)$$`
-Where `$f(I_i)$` is often a sigmoid or linear rectifier function. 
+Then the integral signal is transformed according to a non-linear function, formally as: 
+
+![non-linear](https://latex.codecogs.com/gif.latex?v_i%20%3D%20f%28I_i%29)
+
+Where _f(I_<sub>i</sub>)_ is often a sigmoid or linear rectifier function. 
 
 The goal of my model, is thus to learn by adjusting the weights in the nodes to produce the desired outputs to their input data. The desired outputs are defined by the targets that are provided to the model along with the input.
 

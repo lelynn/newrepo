@@ -7,9 +7,9 @@ description: Here a post dedicated to...
 DOGS!!! 
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/blog_img/henry1.jpg" alt="" title="Henry"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/blog_img/henry1.jpg" alt="" title="Henry"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/blog_img/henry1.jpg" alt="" title="Henry"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/blog_img/dogs/henry1.jpg" alt="" title="Henry"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/blog_img/dogs/henry1.jpg" alt="" title="Henry"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/blog_img/dogs/henry1.jpg" alt="" title="Henry"/>
 </div>
 
 
