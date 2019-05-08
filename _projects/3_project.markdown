@@ -34,7 +34,7 @@ Adversarial images are images generated with the intention to get the model to p
 Convolutional neural network architecture.
 </div>
 
-So above is an convolutional network, that takes in an image and transforms it into an output with specific dimensions. My goals of this project are basically to: 1) train a bunch of models that take in specific inputs and then outputs predictions with specific dimensions. 2) combine all these models to make a huge supermodel (so that it is a strong model). 3) make adversarial images based on this supermodel (by iterating through the input with self-made adversarial targets).
+So above is a convolutional network, that takes in an image and transforms it into an output with specific dimensions. My goals of this project are basically to: 1) train a bunch of models that take in specific inputs and then outputs predictions with specific dimensions. 2) combine all these models to make a huge supermodel (so that it is a strong model). 3) make adversarial images based on this supermodel (by iterating through the input with self-made adversarial targets).
 
 <div class="img_row">
     <img class="col one" src="{{ site.baseurl }}/assets/img/project3/githubcat.png" alt="" title="example image"/>
