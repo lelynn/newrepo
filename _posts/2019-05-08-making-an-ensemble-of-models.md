@@ -6,7 +6,7 @@ description: It is easier than I thought
 ---
 
 # Trained models
-The pretrained models that I used ([models provided by PyTorch](https://pytorch.org/docs/stable/torchvision/models.html)) all contained linear layers as last layers. I replaced these layers with convolutional layers since I do not want to loose spatial information when predicting my outputs. Additionally I had a self-made deep neural network which consisted of residual blocks and deconvolution layers. I then trained the models separately and ended up having 7 models that performed well. 
+The pretrained models that I used ([models provided by PyTorch](https://pytorch.org/docs/stable/torchvision/models.html){:target="\_blank"}) all contained linear layers as last layers. I replaced these layers with convolutional layers since I do not want to loose spatial information when predicting my outputs. Additionally I had a self-made deep neural network which consisted of residual blocks and deconvolution layers. I then trained the models separately and ended up having 7 models that performed well. 
 
 # Ensembling the models
 
