@@ -13,8 +13,8 @@ As I am currently finishing up my master, I wanted to make a planning for myself
 
 #### To-do list
 <ul>
-    <li>Literature revieuw about phosphenes</li>
-    <li>Literature review about neural netowrks on neuroscience</li>
+    <li>Literature review about phosphenes</li>
+    <li>Literature review about neural networks on neuroscience</li>
     <li>Internship report, about current research</li>
 </ul>
 
