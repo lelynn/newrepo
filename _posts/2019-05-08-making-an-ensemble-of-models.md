@@ -20,7 +20,7 @@ Then all the different classes of models that were trained. Here is ana exmaple 
 
 ![AlexNet](/assets/img/blog_img/blog4/AlexNetInstance.png "AlexNet"){:width="100%"}
 
-Pretty much, I used the pretrained model from `torchvision.models.alexnet(pretrained=True)` and then replace the last layers with a sequentual layer containing upsampling, convolutional, batchnormalization and rectified linear unit layers to ultimately obtain an output of my desired dimensions. The layers that were replaced with the sequential layer were selected based on their outsize, meaning I only ended up using pretrained layers that kept the images at large enough dimensions (again, to keep enough spatia information). I did this with every model and found that they predicted nice outputs.
+I used the pretrained model from `torchvision.models.alexnet(pretrained=True)` and then replace the last layers with a sequentual layer containing upsampling, convolutional, batchnormalization and rectified linear unit layers to ultimately obtain an output of my desired dimensions. The layers that were replaced with the sequential layer were selected based on their outsize, meaning I only ended up using pretrained layers that kept the images at large enough dimensions (again, to keep enough spatia information). I did this with every model and found that they predicted nice outputs.
 
 Anyways, when all the instances of the models are made, the instance of the ensemble can be made. This is a class that initializes all the instances of the models. For PyTorch, it is done like this:
 
