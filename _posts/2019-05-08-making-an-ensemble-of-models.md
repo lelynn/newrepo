@@ -65,7 +65,7 @@ Anyways, when all the instances of the models are made, the instance of the ense
 
 <!-- ![Ensemble](/assets/img/blog_img/blog4/EnsembleInstance.png "Ensemble"){:width="100%"} -->
 ``` python
-class MyFinalEnsemble(nn.Module):
+class MyFinalEnsemble_cpu(nn.Module):
     def __init__(self, outsize):
         super(MyFinalEnsemble, self).__init__()
         """
@@ -75,46 +75,35 @@ class MyFinalEnsemble(nn.Module):
         self.outsize = outsize
         
         self.alexnet = AlexNet(self.outsize)
-        self.alexnet.cuda(0)
-        self.alexnet.load_state_dict(torch.load('final_runs_48x64/AlexNet/AlexNet100ep_48x64'))
+        self.alexnet.load_state_dict(torch.load('final_runs_48x64/AlexNet/AlexNet100ep_48x64', map_location='cpu'))
         
         self.densenet = DenseNet201(self.outsize)
-        self.densenet.cuda(0)
-        self.densenet.load_state_dict(torch.load('final_runs_48x64/DenseNet201/DenseNet100ep_48x64')
+        self.densenet.load_state_dict(torch.load('final_runs_48x64/DenseNet201/DenseNet100ep_48x64', map_location='cpu'))
         
         self.inceptionv3 = InceptionV3(self.outsize)
-        self.inceptionv3.cuda(1)
-        self.inceptionv3.load_state_dict(torch.load('final_runs_48x64/InceptionV3/InceptionV3_100ep_48x64')
+        self.inceptionv3.load_state_dict(torch.load('final_runs_48x64/InceptionV3/InceptionV3_100ep_48x64', map_location='cpu'))
         
         self.resdeconv = ResblocksDeconv(3, self.outsize, self.outsize)
-        self.inceptionv3.cuda(1)
-        self.resdeconv.load_state_dict(torch.load('final_runs_48x64/ResDeconv/ResDeconv30ep_48x64')
+        self.resdeconv.load_state_dict(torch.load('final_runs_48x64/ResDeconv/ResDeconv30ep_48x64', map_location='cpu'))
         
         self.resnet = ResNet152(self.outsize)
-        self.resnet.cuda(2)
-        self.resnet.load_state_dict(torch.load('final_runs_48x64/ResNet152/ResNet152_100ep_48x64')
+        self.resnet.load_state_dict(torch.load('final_runs_48x64/ResNet152/ResNet152_100ep_48x64', map_location='cpu'))
         
         self.squeezenet = SqueezeNet1_1(self.outsize)
-        self.squeezenet.cuda(2)
-        self.squeezenet.load_state_dict(torch.load('final_runs_48x64/SqueezeNet/SqueezeNet25ep_48x64')
+        self.squeezenet.load_state_dict(torch.load('final_runs_48x64/SqueezeNet/SqueezeNet25ep_48x64', map_location='cpu'))
         
         self.vgg19 = VGG19BN(self.outsize)
-        self.vgg19.cuda(2)
-        self.vgg19.load_state_dict(torch.load('final_runs_48x64/VGG19BN/VGG19BN18ep'))
+        self.vgg19.load_state_dict(torch.load('final_runs_48x64/VGG19BN/VGG19BN18ep', map_location='cpu'))
 
         
     def forward(self, x):
-        x_device0 = x.cuda(0)
-        x_device1 = x.cuda(1)
-        x_device2 = x.cuda(2)
-                                        
-        x1 = self.alexnet(x_device0)
-        x2 = self.densenet(x_device0)
-        x3 = self.inceptionv3(x_device1)
-        x4 = self.resdeconv(x_device1)
-        x5 = self.resnet(x_device2)
-        x6 = self.squeezenet(x_device2)
-        x7 = self.vgg19(x_device2)
+        x1 = self.alexnet(x)
+        x2 = self.densenet(x)
+        x3 = self.inceptionv3(x)
+        x4 = self.resdeconv(x)
+        x5 = self.resnet(x)
+        x6 = self.squeezenet(x)
+        x7 = self.vgg19(x)
         
         x = sum([x1, x2, x3, x4, x6])/5
 
