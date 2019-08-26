@@ -384,7 +384,7 @@ footer a:hover { color: #B509AC; }
 
 .post-link { display: block; font-size: 42px; }
 
-.project { box-sizing: border-box; float: left; height: 250px; padding: 10px; vertical-align: middle; width: 33.33%; }
+.project { box-sizing: border-box; float: left; height: 230px; padding: 10px; vertical-align: middle; width: 230px; }
 .project .thumbnail { overflow: hidden; height: 100%; width: 100%; }
 .project .thumbnail img { height: 100%; position: relative; left: 0%; top: 0%; width: 100%; }
 .project .thumbnail a { float: left; height: 230px; position: relative; width: 100%; }
