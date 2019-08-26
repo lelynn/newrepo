@@ -1,13 +1,13 @@
 <header class="site-header">
 
   <div class="wrapper">
-
+<!-- 
     {% if page.layout != "about" %}
     <span class="site-title">
         {% assign name = site.name | split: ' ' %}
         <a href="/"><strong>{{ name | first }}</strong> {{ name | last }} </a>
     </span>
-    {% endif %}
+    {% endif %} -->
 
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -30,8 +30,8 @@
 
         <!-- Pages -->
         {% for page in site.pages %}
-          {% if page.title and page.url != "/" %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
+          {% if page.navtitle and page.url != "/" %}
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.navtitle }}</a>
           {% endif %}
         {% endfor %}
 

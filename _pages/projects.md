@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+navtitle: projects
 permalink: /projects/
 description: A growing collection of my cool projects.
 ---
