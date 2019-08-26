@@ -13,10 +13,15 @@ news: true
 social: true
 ---
 
-Hi, welcome to my page. 
+Hi, I am Lynn. Welcome to my website. 
 
+I just completed my Master degree at the Radboud University in Medical Biology, specialized in Neuroscience. 
+Now I am starting with my 4-year phD in the Artificial Cognitive Systems lab, where I make use of artificial neural networks to gain deeper 
+knowledge on neuronal properties in the visual cortex (specifically V1 and V4). I will do this by performing experiments (neurophysiological, psychopysics) and analyzing data by developing computational models. 
 
-Hello! Welcome to my random website. Funny that you're here. I am currently doing my master thesis in the artificial intelligence department at the Donder's Institute. I get excited about learning new things and I like to contribute to science! 
+My previous internship projects was 
+1) part of the [NESTOR ](https://nestor-sight.com/){:target="\_blank"} consortium which involved developing cortical visual prosthetics for restoring vision in blind people
+and 2) at the [Artificial Cognitive Systems](https://artcogsys.com){:target="\_blank"} lab where I focused on generating adversarial images targeting both deep learning models and the human visual system. From these internships, I ultimately learned how to use Python to make programs (experiments) and computer models (deep learning) which I look forward to use in my phD research. 
 
-Next to research, I like to do some sporty stuff (climbing, windsurfing, swimming, etc.) and also I like animals more than anything! Specifically cute puppies such as [this one](https://www.reddit.com/r/aww/comments/ans2i1/this_little_lad_just_came_home/){:target="\_blank"}, or my the ones on my [blogpost](https://lynnle.nl/blog/2019/happy-creatures/){:target="\_blank"}. Thanks for visiting my page. 
+Next to research, I like to do active stuff such as rock climbing, windsurfing, swimming, and hiking. I also like to play the nintendo, which I am currently am using to play Super Mario Sunshine ☀️, Zelda botw ⚔️ and want to start playing super mario Odyssey ⛑. 
 
