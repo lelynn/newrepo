@@ -1,7 +1,8 @@
 ---
 layout: page
 permalink: /courses/
-title: courses
+navtitle: courses
+title: Courses
 description: Materials I have followed or am following.
 ---
 

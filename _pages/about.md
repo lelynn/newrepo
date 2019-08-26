@@ -2,6 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Lynn</strong> Le
+navtitle: about
 description: <a href="">Donder's Institute</a>. Nijmegen, Netherlands.
 
 profile:
@@ -11,6 +12,8 @@ profile:
 news: true
 social: true
 ---
+
+Hi, welcome to my page. 
 
 
 Hello! Welcome to my random website. Funny that you're here. I am currently doing my master thesis in the artificial intelligence department at the Donder's Institute. I get excited about learning new things and I like to contribute to science! 
