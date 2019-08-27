@@ -24,7 +24,7 @@ with my brain. I had to think of a project.</div>
 
 
 
-As I learned more and more about the science of human vision, I gained more interest in the project. I was allowed to attend the meetings where the different researchers discussed and updated eachother about the project. Eventually I did research on biological motion in phosphene vision, where I wrote my first psychophysics experiment, the report is found [here]({{ site.url }}/assets/MaterThesis1_final.pdf){:target="\_blank"}, and the source code is found [here](https://github.com/lelynn/BiologicalMotionExperiment){:target="\_blank"}. 
+As I learned more and more about the science of human vision, I gained more interest in the project. I was allowed to attend the meetings where the different researchers discussed and updated eachother about the project. Eventually I did research on biological motion in phosphene vision, where I wrote my first psychophysics experiment, I wrote a [report]]({{ site.url }}/assets/MasterThesis1_final.pdf){:target="\_blank"} on this project, and provide the [source code](https://github.com/lelynn/BiologicalMotionExperiment){:target="\_blank"}. 
 
 
 ***

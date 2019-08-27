@@ -40,4 +40,4 @@ If you want to see how I made the ensemble of models using PyTorch, read [this b
 
 
 
-My final thesis can be found [here]({{ site.url }}/assets/MasterThesis2_final.pdf){:target="\_blank"}!
+I also wrote a [thesis]({{ site.url }}/assets/MasterThesis2_final.pdf){:target="\_blank"} on this project, check it out!
