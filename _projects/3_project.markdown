@@ -40,10 +40,4 @@ If you want to see how I made the ensemble of models using PyTorch, read [this b
 
 
 
-<div class="img_row">
-    <img class="col one" src="{{ site.baseurl }}/assets/img/project3/githubcat.png" alt="" title="example image"/>
-</div>
-
-<div class="col one caption">
-Github Logo 
-</div>
+My final thesis can be found [here]({{ site.url }}/assets/MasterThesis2_final.pdf){:target="\_blank"}!
