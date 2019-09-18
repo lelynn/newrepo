@@ -1,9 +1,9 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Lynn Le
+name: Lynn Lelai
 # email: lelynn(at)gmail(dot)com
-description: Lynn Le Academic Profile and Blog # this means to ignore newlines until "url:"
+description: Lynn Lelai Academic Profile and Blog # this means to ignore newlines until "url:"
 
 footer_text:
 url:  # the base hostname & protocol for your site
