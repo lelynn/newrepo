@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong>Lynn</strong> Le
+title: <strong>Lynn</strong> Lelai
 navtitle: about
 description: <a href="">Donder's Institute</a>. Nijmegen, Netherlands.
 
