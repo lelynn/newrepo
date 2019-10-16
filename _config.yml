@@ -1,9 +1,9 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Lynn Lelai
+name: Lynn Le
 # email: lelynn(at)gmail(dot)com
-description: Lynn Lelai Academic Profile and Blog # this means to ignore newlines until "url:"
+description: L. Le Academic Profile and Blog # this means to ignore newlines until "url:"
 
 footer_text:
 url:  # the base hostname & protocol for your site
@@ -19,7 +19,7 @@ linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 contact_note: >
-  lelynn11 🐒 gmail
+  lelynn11 🐒 donders(dot)ru(dot)nl
 google_analytics: UA-125247478-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
