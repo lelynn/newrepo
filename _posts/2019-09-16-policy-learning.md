@@ -82,4 +82,4 @@ We then look at each timestep of that episode, starting at the first timestep. A
 
 ### Reference
 
-I have learned all of this material in the <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki49-neural-information-processing-systems/">Neural Information Processing Systems</a>. 
+I have learned all of this material in the <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/ai/sow-mki49-neural-information-processing-systems/">Neural Information Processing Systems</a> course, this year! 
