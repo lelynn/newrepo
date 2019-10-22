@@ -15,7 +15,7 @@ social: true
 
 Hi, I am Lynn. Welcome to my website!
 
-Now I am a phD candidate at the [Artificial Cognitive Systems](https://artcogsys.com){:target="\_blank"} lab, and my supervisors are Dr. Umut Güçlü and Prof. Dr. Marcel van Gerven. For my PhD project, I make use of artificial neural networks to gain deeper 
+Currently, I am a phD candidate at the [Artificial Cognitive Systems](https://artcogsys.com){:target="\_blank"} lab, and my supervisors are Dr. Umut Güçlü and Prof. Dr. Marcel van Gerven. For my PhD project, I make use of artificial neural networks to gain deeper 
 knowledge on neuronal properties in the visual cortex (specifically V1 and V4). I will do this by performing experiments (neurophysiological, psychopysics) and analyzing data by developing computational models. 
 
 My previous internship projects were 
