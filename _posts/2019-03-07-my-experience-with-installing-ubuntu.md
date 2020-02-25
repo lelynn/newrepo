@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  My experience with Ubuntu for cuda and cupy
+title:  Blogpost2| My experience with Ubuntu for cuda and cupy
 date:   2019-03-07
 description: More like a rant... I ended up having to install it three times and here is why...
 

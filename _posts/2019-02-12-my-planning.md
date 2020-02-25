@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  My planning
+title:  Blogpost1| My planning
 date:   2019-02-11
 description: Planing for February, March, April, May & June; looking forward to the PhD!
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Happy creatures
+title:  Blogpost3| Happy creatures
 date:   2019-05-07
 description: Here a post dedicated to...
 ---

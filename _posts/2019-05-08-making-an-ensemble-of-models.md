@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Making an ensemble of models
+title:  Blogpost4| Making an ensemble of models
 date:   2019-05-08
 description: It is easier than I thought
 ---

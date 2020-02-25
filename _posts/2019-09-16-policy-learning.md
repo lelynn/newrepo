@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Reinforcement learning&#58; Policy-based
+title:  Blogpost5| Reinforcement learning&#58; Policy-based
 date:   2019-09-16
 description: Explaining the concept of policy-based learning
 
