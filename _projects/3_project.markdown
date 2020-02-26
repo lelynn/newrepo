@@ -1,12 +1,16 @@
 ---
 layout: page
 title: Project 3
-description: Artificial Intelligence (current project)
+description: Adversarial Images
 img: /assets/img/project3/aibrain.jpg
 
 redirect: 
 ---
-After taking some AI classes, I decided it is something I really enjoy. My supervisor introduced me to the AI department, where I then started an intership project. This internship became way more technical than the first one, where I had to become familiar with many new concepts such as adversarial images, different loss functions and regularizers, k-clustering, Chainer and Pytorch, working via ssh cluster, etc. I am currently working on this project, and is quite challenging however I like to be challenged. 
+
+See [my thesis]({{ site.url }}/assets/MasterThesis2_final.pdf){:target="\_blank"} on this project. 
+
+
+<!-- After taking some AI classes, I decided it is something I really enjoy. My supervisor introduced me to the AI department, where I then started an intership project. This internship became way more technical than the first one, where I had to become familiar with many new concepts such as adversarial images, different loss functions and regularizers, k-clustering, Chainer and Pytorch, working via ssh cluster, etc. I am currently working on this project, and is quite challenging however I like to be challenged. 
 
 
 So far I have become familiar with making my own convolutional models that take in an input image and that outputs specific things. Convolutional neural networks are a form of artificial neural network, composed of artificial neurons. Artificial neurons are are an abstraction of neural behavior, which performs by first summing the input signals over all incoming synapses, formally written as:
@@ -40,4 +44,4 @@ If you want to see how I made the ensemble of models using PyTorch, read [this b
 
 
 
-I also wrote a [thesis]({{ site.url }}/assets/MasterThesis2_final.pdf){:target="\_blank"} on this project, check it out!
+I also wrote a [thesis]({{ site.url }}/assets/MasterThesis2_final.pdf){:target="\_blank"} on this project, check it out! -->
