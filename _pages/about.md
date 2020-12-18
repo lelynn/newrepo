@@ -11,6 +11,8 @@ profile:
   address:
 news: true
 social: true
+
+redirect_from: http://www.lynnle.nl
 ---
 
 Hi, I am Lynn. Welcome to my website!
