@@ -107,60 +107,35 @@
 
   <article class="post-content">
     <h2 id="introduction">Introduction</h2>
-<p>Hello! In this post, I will show you how to run JupyterNotebook or JupyterLab on any server that you have ssh access to.</p>
+<p>Hello! In this post, I will show you how to run JupyterNotebook or JupyterLab on any server that you have ssh access to. I really like this method because it allows me to work and debug on the server without lag, especially when I have to work with large datasets and complex models. All you need is a terminal and a browser!</p>
 
 <h2 id="step-by-step-guide">Step-by-step guide</h2>
 <ol>
-  <li>First you need to ssh to your remote server by running the following from your laptop</li>
-</ol>
-
-<p><code class="language-plaintext highlighter-rouge">ssh usrname@ip.address</code></p>
-
-<ol>
-  <li>
-    <p>One you’re in the server, make sure that <b>jupyter is installed</b>. You can use <a href="https://github.com/jupyterlab/jupyterlab">this documentation</a> to install JupyterLab or <a href="https://docs.jupyter.org/en/latest/install/notebook-classic.html">this documention</a> for JupyterNotebook.</p>
+  <li>First you need to ssh to your remote server by running the following from your laptop
+  <code class="language-plaintext highlighter-rouge">ssh usrname@ip.address</code></li>
+  <li>One you’re in the server, make sure that <b>jupyter is installed</b>. You can use <a href="https://github.com/jupyterlab/jupyterlab">this documentation</a> to install JupyterLab or <a href="https://docs.jupyter.org/en/latest/install/notebook-classic.html">this documention</a> for JupyterNotebook.</li>
+  <li>Once you have it installed, <code class="language-plaintext highlighter-rouge">cd</code> towards the directory that you want to work in. Then run the following command in the terminal of the remote server:
+ <code class="language-plaintext highlighter-rouge">jupyter lab --no-browser --port ####</code>
+ You can replace the port numner (<code class="language-plaintext highlighter-rouge">####</code>) with any desired number that is not already in use, for instance here I use 8880. Then the terminal should output something like this:
+    <p align="center">
+ <img src="/assets/img/blog_img/blog_jupyter/jupyter_lab1.png" alt="JL1" width="700" /> 
+ </p>
   </li>
   <li>
-    <p>Once you have it installed, <code class="language-plaintext highlighter-rouge">cd</code> towards the directory that you want to work in. Then run the following command in the terminal of the remote server:</p>
+    <p>Then you open a new tab in your terminal on your laptop and run the following command: 
+    <code class="language-plaintext highlighter-rouge">ssh -N -f -L localhost:####:localhost:#### usrname@ip.address</code>
+    Where <code class="language-plaintext highlighter-rouge">####</code> is the portnumber (so it can be 8880), and <code class="language-plaintext highlighter-rouge">usrname@ip.address</code> are the credentials that you use to log into the server.</p>
+  </li>
+  <li>
+    <p>Once you run that, you can copy the link in your terminal from step 2 and paste it in your browser. Or paste <code class="language-plaintext highlighter-rouge">http://localhost:8880/lab</code>. Now you should be redirected to JupyterLab!</p>
+
+    <p align="center">
+ <img src="/assets/img/blog_img/blog_jupyter/jupyter_lab2.png" alt="JL2" width="700" /> 
+ </p>
   </li>
 </ol>
 
-<p><code class="language-plaintext highlighter-rouge">jupyter lab --no-browser --port ####</code></p>
-
-<p>You can replace the port numner (<code class="language-plaintext highlighter-rouge">####</code>) with any desired number that is not already in use, for instance here I use 8880. Then the terminal should output something like this:</p>
-
-<p align="center">
-<img src="/assets/img/blog_img/blog_jupyter/jupyter_lab1.png" alt="reconstructions temporal based" width="700" /> 
-</p>
-
-<ol>
-  <li>Then you open a new tab in your terminal on your laptop and run the following command:</li>
-</ol>
-
-<p><code class="language-plaintext highlighter-rouge">ssh -N -f -L localhost:####:localhost:#### usrname@ip.address</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">####</code> is the portnumber (so it can be 8880), and <code class="language-plaintext highlighter-rouge">usrname@ip.address</code> are the credentials that you use to log into the server.</p>
-
-<div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://lynnle.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<p>Hope this was helpful :)</p>
 
   </article>
 
