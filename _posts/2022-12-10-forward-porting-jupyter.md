@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Blogpost7| Running Jupyter lab/notebook remotely
-date:   2020-08-22
+date:   2022-12-10
 description: A manual on forward porting using terminal
 comments: true
 ---
