@@ -4,6 +4,8 @@ title: Projects
 navtitle: projects
 permalink: /projects/
 description: A growing collection of my cool projects.
+news: true
+
 ---
 <div style="text-align: center">
 {% for project in site.projects %}
