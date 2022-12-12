@@ -2,7 +2,7 @@
 layout: page
 title: Project 3
 description: Adversarial Images
-img: /assets/img/project_adversarial/aibrain.jpg
+img: /assets/img/project_adversarial/adversarial_lady.jpg
 
 redirect: 
 ---
