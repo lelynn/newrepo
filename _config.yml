@@ -81,6 +81,20 @@ plugins:
     - jekyll-redirect-from
     - jemoji
 
+# -----------------------------------------------------------------------------
+# Staticman
+# -----------------------------------------------------------------------------
+movieFormUrl:
+staticman:
+ allowedFields: ['name', 'subject', 'comment']
+ branch: gh-pages
+ commitMessage: "Hey human, here is a new entry."
+ filename: "entry{@timestamp}"
+ format: yml
+ moderation: true
+ path: "_data/reviews"
+ requiredFields: ['name', 'subject', 'comment']
+
 # Jekyll-Scholar
 # scholar:
 

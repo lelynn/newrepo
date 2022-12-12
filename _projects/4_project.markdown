@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Project 2
+title: Project 4
 description: Neuronal Stimulation for Recovery of Function
 img: /assets/img/project_nestor/human.png
 ---
