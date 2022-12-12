@@ -11,16 +11,17 @@
 
   gtag('config', 'UA-125247478-1');
 </script>
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Lynn Le | Blogpost7| Running Jupyter lab/notebook remotely</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="L. Le Academic Profile and Blog">
   <meta charset='utf-8'>
-  <link rel="shortcut icon" type="image/png" href="/favicon.png">
-  <!-- <link rel="shortcut icon" href="http://localhost:4000/assets/img/favicon.ico"> -->
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
 
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
   <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
   <link rel="canonical" href="http://localhost:4000/blog/2020/forward-porting-jupyter/">
 </head>
@@ -138,9 +139,44 @@
 
 <p><code class="language-plaintext highlighter-rouge">ssh -N -f -L localhost:####:localhost:#### usrname@ip.address</code></p>
 
-<p>Where <code class="language-plaintext highlighter-rouge">####</code> is the portnumber (so it can be 8880), and <code class="language-plaintext highlighter-rouge">usrname@ip.address</code> are the credentials that you use to log into the server.
+<p>Where <code class="language-plaintext highlighter-rouge">####</code> is the portnumber (so it can be 8880), and <code class="language-plaintext highlighter-rouge">usrname@ip.address</code> are the credentials that you use to log into the server.</p>
+
 <script>
-</script></p>
+  <section class="constrain">
+    <h3>Write a review</h3>
+    <form class="js-form form" method="post" action="https://api.staticman.net/v1/entry/lelynn/lelynn.github.io/gh-pages">
+    <div class="form__spinner mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
+    <fieldset class="field-group">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="movie-form[name]" name="fields[name]"/>
+        <label class="mdl-textfield__label" for="movie-form[name]">Your name</label>
+      </div>
+    </fieldset>
+  
+    <fieldset class="field-group">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="movie-form[title]" name="fields[title]"/>
+        <label class="mdl-textfield__label" for="movie-form[title]">Subject</label>
+      </div>
+    </fieldset>
+  
+    <fieldset class="field-group">
+      <div class="mdl-textfield mdl-textfield--floating-label mdl-js-textfield">
+        <textarea class="mdl-textfield__input" name="fields[description]" type="text" rows= "3" id="movie-form[description]"></textarea>
+        <label class="mdl-textfield__label" for="movie-form[description]">Your comment.</label>
+      </div>
+    </fieldset>
+    
+    <fieldset class="field-group">
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+        Submit
+      </button>
+    </fieldset>
+  </form>
+  
+  </section>
+  </script>
+
 
   </article>
 

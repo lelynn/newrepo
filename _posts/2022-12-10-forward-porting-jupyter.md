@@ -33,15 +33,9 @@ You can replace the port numner (`####`) with any desired number that is not alr
 Where `####` is the portnumber (so it can be 8880), and `usrname@ip.address` are the credentials that you use to log into the server.
 
 
-<div>
+<script>
   <section class="constrain">
     <h3>Write a review</h3>
     {% include reviews-new.html %}
   </section>
-  
-  <section class="constrain">
-    <h3>All reviews</h3>
-
-    {% include reviews.html %}
-  </section>
-</div>
+  </script>
