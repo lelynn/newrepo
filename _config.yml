@@ -84,7 +84,7 @@ plugins:
 # -----------------------------------------------------------------------------
 # Staticman
 # -----------------------------------------------------------------------------
-movieFormUrl: https://git.heroku.com/static-lynn.git
+# movieFormUrl: https://git.heroku.com/static-lynn.git
 staticman:
  allowedFields: ['name', 'subject', 'comment']
  branch: gh-pages
