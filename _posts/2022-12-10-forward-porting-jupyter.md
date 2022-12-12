@@ -39,8 +39,8 @@ Where `####` is the portnumber (so it can be 8880), and `usrname@ip.address` are
     {% include reviews-new.html %}
   </section>
   
-  <section class="constrain">
+  <!-- <section class="constrain">
     <h3>All reviews</h3>
 
     {% include reviews.html %}
-  </section>
+  </section> -->
