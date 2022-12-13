@@ -12,13 +12,16 @@ Reconstructing complex and dynamic visual perception from brain activity remains
 
 <b>Main results -- FixedRF (test set):</b>
 
-fixed RFSimage | reconstruction | ground truth
+| fixed RFSimage | reconstruction | ground truth |
 
-![fixedRF_a](/assests/img/project_brain2pix/recons_fixed_of_all_frames_as_video_a.gif)
-
-
-![fixedRF_b](/assests/img/project_brain2pix/recons_fixed_of_all_frames_as_video_b.gif)
-
-![fixedRF_c](/assests/img/project_brain2pix/recons_fixed_of_all_frames_as_video_c.gif)
+<p align="center">
+<img src=/assests/img/project_brain2pix/recons_fixed_of_all_frames_as_video_a.gif alt="fixedRF_a" width="700"/> 
+</p>
+<p align="center">
+<img src=/assests/img/project_brain2pix/recons_fixed_of_all_frames_as_video_b.gif alt="fixedRF_b" width="700"/> 
+</p>
+<p align="center">
+<img src=/assests/img/project_brain2pix/recons_fixed_of_all_frames_as_video_c.gif alt="fixedRF_c" width="700"/> 
+</p>
 
 [Here](https://github.com/neuralcodinglab/brain2pix) is the repository.
