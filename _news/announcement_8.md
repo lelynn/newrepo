@@ -1,7 +1,7 @@
 ---
 layout: post
 title: new blogpost on how to run jupyter remotely!
-date: 2020-02-26
+date: 2022-12-14
 inline: true
 ---
 
