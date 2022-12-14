@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_about
 permalink: /teaching/
 navtitle: teaching
 title: Teaching
