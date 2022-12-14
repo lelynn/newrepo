@@ -2,8 +2,8 @@
 layout: page_about
 title: Projects
 navtitle: projects
-permalink: /
-description: A growing collection of my cool projects.
+permalink: /projects/
+description: 
 news: true
 
 ---
