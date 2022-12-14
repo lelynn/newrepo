@@ -1,6 +1,6 @@
 ---
 layout: about
-permalink: /
+permalink: /about/
 title: <strong>Lynn</strong> Le
 navtitle: about
 description: <a href="">Donder's Institute</a>. Nijmegen, Netherlands.
