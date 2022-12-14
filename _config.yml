@@ -7,7 +7,7 @@ description: L. Le Academic Profile and Blog # this means to ignore newlines unt
 
 footer_text:
 url: https://lynnle.com # the base hostname & protocol for your site
-baseurl: /projects/ # the subpath of your site, e.g. /blog/
+baseurl: projects/ # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
