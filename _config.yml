@@ -6,8 +6,8 @@ name: Lynn Le
 description: L. Le Academic Profile and Blog # this means to ignore newlines until "url:"
 
 footer_text:
-url:  # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/
+url: https://lynnle.com # the base hostname & protocol for your site
+baseurl: /projects/ # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
@@ -19,14 +19,14 @@ linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 contact_note: >
-  l.le 🐒 donders(dot)ru(dot)nl
+  lynn.le 🐒 donders(dot)ru(dot)nl
 google_analytics: UA-125247478-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: 
-blog_description: My blogs
+blog_description: My blog posts
 
 # Pagination
 paginate: 4
