@@ -4,8 +4,10 @@ title: Project 4
 description: Neuronal Stimulation for Recovery of Function
 img: /assets/img/project_nestor/human.png
 ---
-# Abstract
 
+![left](/assets/img/project_nestor/image8.gif)
+
+# Abstract
 The active pursuit to develop cortical visual prostheses offers a promis-
 ing future for blind people. Cortical implants with penetrating micro-
 electrode arrays can generate visual percepts by electrically stimulating

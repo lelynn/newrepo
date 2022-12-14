@@ -23,6 +23,7 @@ lutional network models and also has succeeded in steering human eye-movements t
 locations
 
 ## Results
+
 <p align="center">
 <img src="/assets/img/project_adversarial/plots.png" alt="plots" width="700"/> 
 </p>
