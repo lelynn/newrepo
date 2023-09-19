@@ -1,16 +1,35 @@
 ---
 layout: page
-title: Project 4
-description: Neuronal Stimulation for Recovery of Function
-img: /assets/img/project_nestor/human.png
+title: Project 3
+description: Adversarial Images
+img: /assets/img/project_adversarial/adversarial_lady.png
+
+redirect: 
 ---
 
-![left](/assets/img/project_nestor/image8.gif)
+## Abstract
+Adversarial examples are inputs that are slightly modified with the objective to mislead com-
+puter algorithms. Adversarial images, perceived as a great threat for computer vision models,
+has not yet been proven to be dangerous for the human visual system. Some slight effects of
+adversarial images on humans have recently been shown, however these results apply only in
+very limited experimental settings. It remains a question whether adversarial images designed
+to attack computer vision models can influence visual processes such as overt attention. In
+this study, we address this question by making use of state-of-the-art approaches to gener-
+ate adversarial images with the intent to alter human attention. We train a CNN-ensemble
+to predict saliency maps and take the learned parameters to generate adversarial images with
+the pursue to influence human eye movements in the same way as the CNN-ensemble. We
+find that our adversarial images has fooled the saliency prediction of well-performing convo-
+lutional network models and also has succeeded in steering human eye-movements to target
+locations
 
-# Abstract
-The active pursuit to develop cortical visual prostheses offers a promising future for blind people. Cortical implants with penetrating microelectrode arrays can generate visual percepts by electrically stimulating the visual cortex. The resulting percept of bright dots due to the stimulation of the visual pathway is called phosphenes. Biological motion perception occurs even with sparsely placed dots representing body parts, and it has been shown to not require local motion, making it a favorable notion for phosphene induction. Here, through psychophysical experiments of simulated phosphene vision in sighted participants, we investigated the performance in biological motion perception. We tested the
-performance of participants on a forward/backward task with different frame durations using a limited lifetime of the moving dot stimulations to eliminate local motion. Preliminary experiments show promising results supporting the development of a cortical visual prosthesis with functionalities that exploit the visual system’s ability to perceive biological motion from sparse stimuli. Future work will involve development of sophisticated deep learning methods to automatically perform pose detectionfor biological motion representations, and testing them in augmented
-and virtual reality phosphene vision simulations, with the ultimate goal of integrating them in a cortical visual prosthesis under development I wanted to perform a research on how we can use biological motion to help perception of phosphenes that are induced by cortical implants. 
+## Results
+
+<p align="center">
+<img src="/assets/img/project_adversarial/plots.png" alt="plots" width="700"/> 
+</p>
 
 ## Report
-See [my report]({{ site.url }}/assets/MasterThesis1_final.pdf){:target="\_blank"} on this project, and the provided [source code](https://github.com/lelynn/BiologicalMotionExperiment){:target="\_blank"}. 
+See [my full report :book:]({{ site.url }}/assets/MasterThesis2_final.pdf){:target="\_blank"} on this project. 
+
+
+
